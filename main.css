@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 30, 2018, 2:41:28 AM
+    Author     : Şeyma
+*/
+body{ font-family: 'Major Mono Display', monospace;}
+div#start{text-align: center; margin: 0 auto;}
+h1{font-size: 50px;}
+a{text-decoration: none; text-decoration: none; padding: 25px 40px;}
+.button{ 
+               background-color: lightsalmon;
+    color: #fff;
+    border-radius: 5px;
+    width: 200px;
+   margin: 0 auto;
+   display: block;
+}
+.button:hover{letter-spacing: 5px; transition-duration: 1s; background: #e95d3c; }
+#slideShow{border-bottom: 3px solid #e95d3c;border-top:3px solid #e95d3c;  width: 500px;height: 400px; margin: 0 auto; margin-bottom: 20px;}
+ul{list-style: none;width: 500px;}
+.slide ul li {float: left; width: 480px; }
+.slide{overflow: hidden;}
+#secondFrame{margin: 0 auto; text-align: center;}
+.citydiv{display: inline-block; width: 15%; height:30%; margin: 30px;   }
+.citydiv img{width: 100%; opacity: 0.4;border-radius: 50px;}
+
+.citydiv img:hover{opacity: 1; transition-duration: 1s;}
+#thirdframe{text-align: center; margin: 0 auto;}
+#puzzlediv{
+   
+    width: 600px;
+    height: 600px;
+    
+    
+}
+#puzzlediv { position: absolute;margin-left: 450px;border: 10px solid salmon;}
+.slide{margin: 120px auto; }
+#shufflebutton{ position: absolute; margin-top: 650px; margin-left: 620px;}
+#shuffle{ position: absolute; margin-top: 625px; margin-left: -45px;}
+#congrats{text-align: center}
+#solveMessage{ position: absolute;margin-top: 650px; margin-left: 550px;}
+#solutionMessage{margin-left: 1100px; margin-top:300px; position: absolute;}
+#tryAgain{text-align: center;}
